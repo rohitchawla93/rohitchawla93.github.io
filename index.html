@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rohit Chawla | Nonlinear Dynamics, Experiments & Engineering</title>
+  <meta name="description" content="Rohit Chawla — nonlinear dynamics, non-smooth systems, experiments, engineering and computational research.">
+  <meta name="theme-color" content="#070a12">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;650;750;850&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="index.html" aria-label="Rohit Chawla home">
+        <span class="brand-mark">RC</span>
+        <span>Rohit Chawla</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Open navigation">Menu</button>
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html" class="active">Home</a>
+<a href="about.html" class="">About</a>
+<a href="research.html" class="">Research</a>
+<a href="publications.html" class="">Publications</a>
+<a href="teaching.html" class="">Teaching</a>
+<a href="projects.html" class="">Projects</a>
+<a href="contact.html" class="">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Nonlinear dynamics · experiments · machines</p>
+          <h1 class="hero-title-wide">I study dynamical systems by modelling, computing and building them.</h1>
+          <p class="hero-subtitle">I am a researcher working across nonlinear dynamics, non-smooth systems, bifurcation theory, experiments, computation, CAD, electronics and mechanical design. My work sits between physics and engineering: theory when it is needed, experiments when they reveal the real system, and prototypes when an idea has to become tangible.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="research.html">Explore research</a>
+            <a class="btn" href="projects.html">Projects & builds</a>
+            <a class="btn" href="publications.html">Publications</a>
+          </div>
+          <div class="meta-row" aria-label="Research keywords">
+            <span class="pill">Filippov systems</span>
+            <span class="pill">Impact oscillators</span>
+            <span class="pill">Bifurcation theory</span>
+            <span class="pill">Experimental dynamics</span>
+            <span class="pill">CAD & prototyping</span>
+          </div>
+        </div>
+        <div class="visual-card" aria-hidden="true">
+          <svg class="phase-svg" viewBox="0 0 620 620" role="img" aria-label="Animated phase portrait illustration">
+  <defs>
+    <linearGradient id="phaseGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ce7d3"/>
+      <stop offset="55%" stop-color="#8ea7ff"/>
+      <stop offset="100%" stop-color="#ffb86b"/>
+    </linearGradient>
+  </defs>
+  <path class="phase-path" d="M91,344 C126,116 331,64 448,201 C589,366 433,570 236,494 C88,437 156,257 298,252 C450,247 505,409 388,479 C260,556 126,421 190,292 C266,139 489,151 537,326" />
+  <path class="phase-path two" d="M125,328 C150,192 266,123 378,168 C512,222 521,404 415,487 C284,589 99,488 118,325 C137,160 336,81 474,185" />
+  <path class="phase-path three" d="M203,430 C134,323 181,178 304,143 C428,107 550,206 552,337 C554,470 429,563 303,524 C178,485 128,334 203,230" />
+</svg>
+          <div class="float-note one"><strong>Research</strong>Non-smooth dynamics, grazing, impacts</div>
+          <div class="float-note two"><strong>Build</strong>CAD, mechanisms, robotics, electronics</div>
+          <div class="float-note three"><strong>Compute</strong>Continuation, maps, simulation</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <h2>Not only an academic CV.</h2>
+          <p>This website is designed to show the full picture: physicist, engineer, experimentalist, coder and builder.</p>
+        </div>
+        <div class="grid four">
+          <article class="card"><div class="icon">Φ</div><h3>Physicist</h3><p>Trained in physics with interests spanning nonlinear dynamics, quantum systems, stability, oscillations and fundamental modelling.</p></article>
+          <article class="card"><div class="icon">Σ</div><h3>Dynamics researcher</h3><p>Hard-core work on non-smooth systems, discontinuity-induced bifurcations, saltation/TDM maps, impacts and grazing dynamics.</p></article>
+          <article class="card"><div class="icon">⚙</div><h3>Engineer</h3><p>Mechanical systems, robotics, OpenFOAM solvers, finite-volume beam modelling, CAD design and simulation-driven design.</p></article>
+          <article class="card"><div class="icon">✦</div><h3>Experimental builder</h3><p>Analog circuits, vibro-impact rigs, sensors, 3D printed mechanisms, lab demonstrations and hands-on instrumentation.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container split-card">
+        <div>
+          <p class="eyebrow">Research spine</p>
+          <h2>From equations to experiments.</h2>
+          <p>My work combines analytical maps, numerical simulation and physical implementation to study systems where smooth assumptions break down: switching, friction, impacts, contact, grazing and hybrid evolution.</p>
+          <div class="hero-actions">
+            <a class="btn small primary" href="research.html">Research themes</a>
+            <a class="btn small" href="projects.html">Future project gallery</a>
+          </div>
+        </div>
+        <div class="panel code-window">
+          <div class="bar"><span class="dot"></span><span class="dot"></span><span class="dot"></span></div>
+<pre><span class="accent">system</span> = nonlinear + nonsmooth + experimental
+
+while idea_is_interesting:
+    derive_map()
+    simulate_or_continue()
+    build_experiment()
+    compare_theory_with_reality()
+
+<span class="warm">output</span> = dynamics_you_can_see</pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Selected research directions.</h2>
+          <p>These cards can later expand into full project pages with videos, animations, CAD renders and code.</p>
+        </div>
+        <div class="grid three">
+          <article class="card"><h3>Non-smooth dynamical systems</h3><p>Filippov and piecewise-smooth systems, discontinuity boundaries, saltation matrices, transverse discontinuity mappings and local stability.</p></article>
+          <article class="card"><h3>Impact and grazing dynamics</h3><p>Vibro-impact oscillators, near-grazing behaviour, higher-order maps, experimental validation and physical implementation.</p></article>
+          <article class="card"><h3>Experiments and analog systems</h3><p>Op-amp circuits, mechanical demonstrations, sensors and lab-scale systems that make nonlinear phenomena measurable and visible.</p></article>
+          <article class="card"><h3>Computational mechanics</h3><p>Custom solvers, beam models, OpenFOAM implementation and numerical tools for structural and dynamical systems.</p></article>
+          <article class="card"><h3>Robotics and mechanisms</h3><p>Robot arms, parallel manipulators, CAD, inverse kinematics, control experiments and ball-balancing platforms.</p></article>
+          <article class="card"><h3>Data-to-dynamics</h3><p>Learning dynamics from data, digital twins, prediction of ODEs and hybridising data-driven methods with physical insight.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section tight">
+      <div class="container">
+        <div class="section-head">
+          <h2>Upcoming project gallery.</h2>
+          <p>Drop your images/videos/code later and I will turn each into a polished page.</p>
+        </div>
+        <div class="grid three">
+          <article class="card"><h3>Robot arm and parallel manipulators</h3><p>CAD, 3D printed joints, inverse kinematics, Arduino/Python control and ball-balancing experiments.</p></article>
+          <article class="card"><h3>Pseudo-arclength continuation</h3><p>A visual explanation and code-driven demo of continuation, folds, periodic orbits and bifurcation tracking.</p></article>
+          <article class="card"><h3>Limit cycles and phase portraits</h3><p>Animated Van der Pol-style phase portraits, impact oscillator maps, basins and experimental comparisons.</p></article>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <span>© <span data-year></span> Rohit Chawla. Built as a static research portfolio.</span>
+      <span><a href="contact.html">Contact</a> · <a href="projects.html">Projects</a> · <a href="publications.html">Publications</a></span>
+    </div>
+  </footer>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
